@@ -21,10 +21,8 @@ body{
     font-size: 35px;
 
 }
-.section-description{
-    color: var(--dark-03, #757575);
+.about-description{
 text-align: center;
-font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -85,11 +83,21 @@ nav a{
     margin-bottom: 20px;
 }
 /* main section */
-
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 /* about section */
 .about{
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
